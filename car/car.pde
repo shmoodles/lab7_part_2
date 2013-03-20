@@ -6,8 +6,10 @@ void setup() {
 int x = 200;
 
 void draw() { 
-  fill(5,215,55);
+  fill(55,255,111);
   noStroke();
+  ellipse(x+63,285,65,25);
+  rect(x+95,285,86,10);
   rect(x+30,285,65,15);
    rect(x,300,125,30);
    fill(0,0,0);
